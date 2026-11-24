@@ -72,9 +72,9 @@ npm run preview
 ## Desenvolvimento com IA
 
 - `AGENTS.md`: instruções usadas pelo agente de IA.
-- **Context7 MCP**: consulta da documentação de React/Vite/TypeScript.
-- **Playwright MCP**: testes de interface e capturas de tela.
-- Evidências em `docs/` (screenshots desktop/mobile e prints das ferramentas).
+- **Context7 MCP** e **Playwright MCP** configurados em `opencode.json` (OpenCode) e `.mcp.json` (Claude Code).
+- Passo a passo para gerar as evidências: [`docs/EVIDENCIAS.md`](docs/EVIDENCIAS.md).
+- Prints das ferramentas em `docs/evidencias/` e screenshots em `docs/screenshots/`.
 
 ## Screenshots
 

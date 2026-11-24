@@ -48,7 +48,10 @@ src/
 
 ## Ferramentas MCP
 
-- **Context7 MCP**: antes de usar APIs de React, Vite, TypeScript ou lucide-react, consulte a documentação atualizada (ex.: `resolve-library-id react` → `get-library-docs /facebook/react topic: "useContext"`).
+Os servidores já estão configurados em `opencode.json` (OpenCode) e `.mcp.json` (Claude Code). O passo a passo para gerar as evidências está em `docs/EVIDENCIAS.md`.
+
+
+- **Context7 MCP**: antes de usar APIs de React, Vite, TypeScript ou lucide-react, consulte a documentação atualizada (ex.: `resolve-library-id react` → `query-docs /facebook/react "useContext"`).
 - **Playwright MCP**: após cada etapa, abra `http://localhost:5173` e valide:
   - cadastrar agendamento válido e vê-lo no período correto;
   - mensagens de erro ao enviar formulário vazio;
