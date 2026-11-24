@@ -59,5 +59,5 @@ export function AppointmentsProvider({ children }: AppointmentsProviderProps) {
     [appointments, selectedDate, addAppointment, removeAppointment],
   )
 
-  return <AppointmentsContext.Provider value={value}>{children}</AppointmentsContext.Provider>
+  return <AppointmentsContext value={value}>{children}</AppointmentsContext>
 }
